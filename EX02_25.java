@@ -1,6 +1,7 @@
 package CH02;
 
 import java.util.Scanner;
+
 public class EX02_25 {
 
     public static void main(String[] args) {

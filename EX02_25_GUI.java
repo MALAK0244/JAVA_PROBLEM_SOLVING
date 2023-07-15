@@ -24,7 +24,7 @@ public class EX02_25_GUI {
 
         long currentHour = totalHours % 24;
 
-        currentHour += timezone;
+        currentHour = (currentHour + timezone) % 24;
 
         JOptionPane.showMessageDialog(null, "The current time is "
                 + currentHour + ":" + currentMinute + ":" + currentSecond);
