@@ -1,0 +1,18 @@
+package CH02;
+
+import javax.swing.JOptionPane;
+
+public class EX02_02_GUI {
+
+    public static void main(String[] args) {
+        String s1 = JOptionPane.showInputDialog(null, "Enter the radius ");
+        String s2 = JOptionPane.showInputDialog(null, "and length of a cylinder"
+                + ": ");
+        double radius = Double.parseDouble(s1);
+        double length = Double.parseDouble(s2);
+        double area = radius * radius * Math.PI;
+        double volume = area * length;
+        JOptionPane.showMessageDialog(null, "The area is " + area
+                + "\nThe volume is " + volume);
+    }
+}
