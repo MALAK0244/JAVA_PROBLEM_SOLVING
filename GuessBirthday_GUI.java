@@ -92,56 +92,55 @@ public class GuessBirthday_GUI {
         if (answer == JOptionPane.YES_OPTION) {
             month += 8;
         }
-        JOptionPane.showMessageDialog(null, "\nYour birthday is " + days);
 
         switch (month) {
             case 1:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is January ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + " \nYour birthmonth is January ");
                 break;
             case 2:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is February ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is February ");
                 break;
             case 3:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth"
-                        + " is March");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is March");
                 break;
             case 4:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is April ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is April ");
                 break;
             case 5:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is May ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is May ");
                 break;
             case 6:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is June");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth June");
                 break;
             case 7:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is July ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is July ");
                 break;
             case 8:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth"
-                        + " is August ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is August ");
                 break;
             case 9:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is September ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is September ");
                 break;
             case 10:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is October ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is October ");
                 break;
             case 11:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is November ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is November ");
                 break;
             case 12:
-                JOptionPane.showMessageDialog(null, "\nYour birthmonth "
-                        + "is December ");
+                JOptionPane.showMessageDialog(null, "\nYour birthday is " + days
+                        + "\nYour birthmonth is December ");
                 break;
         }
 
