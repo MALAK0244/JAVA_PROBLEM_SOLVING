@@ -11,11 +11,11 @@ public class EX03_25 {
         double e2 = input.nextInt();
         double e3 = input.nextInt();
         double perimeter = e1 + e2 + e3;
-        if (e1 + e2 >= e3 && e2 + e3 >= e1 && e1 + e3 >= e2) {
-            System.out.print("Perimeter of the triangle is " + perimeter);
+        if (e1 + e2 >= e3 || e2 + e3 >= e1 || e1 + e3 >= e2) {
+            System.out.println("Perimeter of the triangle is " + perimeter);
             
         } else {
-            System.out.print("The input is invalid ");
+            System.out.println("The input is invalid ");
             
         }
     }

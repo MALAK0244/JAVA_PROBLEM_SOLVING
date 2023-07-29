@@ -12,25 +12,24 @@ public class EX03_08 {
         int num3 = input.nextInt();
 
         int temp;
-        if (num2 < num1 || num3 < num1) {
-            if (num2 < num1) {
-                temp = num1;
-                num1 = num2;
-                num2 = temp;
-            }
-            if (num3 < num1) {
-                temp = num1;
-                num1 = num3;
-                num3 = temp;
-            }
-            if (num3 < num2) {
-                temp = num2;
-                num2 = num3;
-                num3 = temp;
-            }
+        if (num3 < num1) {
+            temp = num1;
+            num1 = num3;
+            num3 = temp;
         }
-            System.out.print(num1 + " < " + num2 + " < " + num3);
-        
+        if (num2 < num1) {
+            temp = num1;
+            num1 = num2;
+            num2 = temp;
+        }
+
+        if (num3 < num2) {
+            temp = num2;
+            num2 = num3;
+            num3 = temp;
+        }
+
+        System.out.println(num1 + " < " + num2 + " < " + num3);
 
     }
 }

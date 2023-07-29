@@ -1,5 +1,5 @@
 package CH03;
-
+//explain
 import java.util.Scanner;
 
 public class EX03_27 {

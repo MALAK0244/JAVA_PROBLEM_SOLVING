@@ -12,7 +12,7 @@ public class EX03_25_GUI {
         double e2 = Double.parseDouble(s2);
         double e3 = Double.parseDouble(s3);
         double perimeter = e1 + e2 + e3;
-        if (e1 + e2 >= e3 && e2 + e3 >= e1 && e1 + e3 >= e2) {
+        if (e1 + e2 >= e3 || e2 + e3 >= e1 || e1 + e3 >= e2) {
             JOptionPane.showMessageDialog(null, "Perimeter of the triangle is "
                     + perimeter);
         } else {

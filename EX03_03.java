@@ -16,9 +16,9 @@ public class EX03_03 {
         double x = ((e * d) - (b * f)) / ((a * d) - (b * c));
         double y = ((a * f) - (e * c)) / ((a * d) - (b * c));
         if ((a * d) - (b * c) == 0) {
-            System.out.print("The equation has no solution ");
+            System.out.println("The equation has no solution ");
         } else {
-            System.out.print("X is " + x + " and Y is " + y);
+            System.out.println("X is " + x + " and Y is " + y);
         }
 
     }
