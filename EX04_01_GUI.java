@@ -11,7 +11,6 @@ public class EX04_01_GUI {
         int count = 0;
         int pos = 0;
         int neg = 0;
-        // 1 2 -1 3 0 
 
         do {
             s = JOptionPane.showInputDialog(null, "Enter the first int value, "

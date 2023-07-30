@@ -11,7 +11,7 @@ public class EX04_01 {
         int count = 0;
         int pos = 0;
         int neg = 0;
-        // 1 2 -1 3 0
+       
         System.out.print("Enter an int value, "
                 + "the program exits if the input is 0: ");
         int value = input.nextInt();
